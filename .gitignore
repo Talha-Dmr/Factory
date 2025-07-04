@@ -1,0 +1,32 @@
+# Unity için önerilen .gitignore
+
+[Lazım olmayanlar]
+[Lazım olmayan klasörleri dışla]
+[Lazım olmayan dosyaları dışla]
+
+[Lazım olmayan Unity klasörleri]
+[Lazım olmayan sistem klasörleri]
+[Lazım olmayan editör ve IDE ayarları]
+
+# Build sonuçları
+Build/
+Builds/
+
+# Unity sistem klasörleri
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+
+# Rider / VS / VS Code gibi editör ayarları
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.user
+*.unityproj
+
+# Plastic SCM klasörleri
+.plastic/
+*.plasticworkspace
