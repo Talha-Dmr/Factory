@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 127
+  controlID: 133
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 180
+  controlID: 79
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 74
+  controlID: 80
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 81
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -404,8 +404,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 808.8
-    y: 521.60004
+    x: 809.8
+    y: 24
     width: 412.39996
     height: 248.4
   m_SerializedDataModeController:
@@ -430,7 +430,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -440,16 +440,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Clone_Factory\Factory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0b50000
-    m_LastClickedID: 46496
-    m_ExpandedIDs: 00000000a0b5000000ca9a3b
+    m_SelectedIDs: 14ba0000
+    m_LastClickedID: 47636
+    m_ExpandedIDs: 00000000cab50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -478,7 +478,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0b50000
+    m_ExpandedIDs: 00000000cab50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 521.60004
+    y: 24
     width: 807.8
     height: 248.4
   m_SerializedDataModeController:
@@ -620,7 +620,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -630,16 +630,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Clone_Factory\Factory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0b50000
-    m_LastClickedID: 46496
-    m_ExpandedIDs: 00000000a0b5000000ca9a3b
+    m_SelectedIDs: 14ba0000
+    m_LastClickedID: 47636
+    m_ExpandedIDs: 00000000cab50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,7 +668,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0ea70000
     m_LastClickedID: 42766
-    m_ExpandedIDs: 00000000a0b50000
+    m_ExpandedIDs: 00000000cab50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -747,8 +747,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1223.2001
-    y: 79.200005
+    x: 1224.2
+    y: 24
     width: 311.80005
     height: 690.8
   m_SerializedDataModeController:
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 296.6
     height: 252.4
   m_SerializedDataModeController:
@@ -813,10 +813,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 728.6}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aaf1fffff6f2ffffe2f3ffff36f4ffff6af4ffff8ef4ffff1cf6ffffc6f7ffff74f9ffffc2faffff16fbffff18fbffff
+      m_ExpandedIDs: 6af6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -862,8 +862,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 297.6
-    y: 79.200005
+    x: 298.6
+    y: 24
     width: 923.6
     height: 416.4
   m_SerializedDataModeController:
@@ -1420,9 +1420,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 20.996908, y: 2.7171946, z: 0.88471013}
+    m_Target: {x: 49, y: 3.5, z: 5.7}
     speed: 2
-    m_Value: {x: 20.996908, y: 2.7171946, z: 0.88471013}
+    m_Value: {x: 49, y: 3.5, z: 5.7}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1468,13 +1468,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.31768402, y: 0.03386379, z: -0.011373464, w: -0.9478081}
+    m_Target: {x: -0.13081668, y: 0.061562717, z: -0.008139595, w: -0.9897484}
     speed: 2
-    m_Value: {x: -0.31646112, y: 0.033868294, z: -0.011329722, w: -0.947933}
+    m_Value: {x: -0.13081668, y: 0.061562717, z: -0.008139595, w: -0.9897484}
   m_Size:
-    m_Target: 0.37239215
+    m_Target: 12.124355
     speed: 2
-    m_Value: 0.37239215
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 357.6
+    y: 302.4
     width: 296.6
     height: 138
   m_SerializedDataModeController:
