@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alpka\\mainFactory\\Factory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\mainfactory\\factory\\assets\\scripts\\cameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\mainfactory\\factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\mainFactory\\Factory\\assets\\scripts\\cameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\mainFactory\\Factory\\assets\\scripts\\pressscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pressscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\mainFactory\\Factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\mainFactory\\Factory\\assets\\scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CameraSwitch.cs",
               "DocumentMoniker": "C:\\Users\\alpka\\mainFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraSwitch.cs",
               "ToolTip": "C:\\Users\\alpka\\mainFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T10:15:01.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T10:15:01.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PressScript.cs",
               "DocumentMoniker": "C:\\Users\\alpka\\mainFactory\\Factory\\Assets\\Scripts\\PressScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PressScript.cs",
@@ -59,15 +58,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TriggerShowData.cs",
               "DocumentMoniker": "C:\\Users\\alpka\\mainFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerShowData.cs",
               "ToolTip": "C:\\Users\\alpka\\mainFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerShowData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:58:36.108Z"
+              "WhenOpened": "2025-07-07T09:58:36.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

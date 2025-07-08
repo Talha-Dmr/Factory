@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class TriggerShowData : MonoBehaviour
 {
     [Header("Assign in Inspector")]
-    public TextMeshProUGUI dataText;    
+    public TextMeshPro dataText;    
     public TextAsset csvFile;
 
     // internal storage
