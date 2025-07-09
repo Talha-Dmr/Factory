@@ -10,9 +10,10 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
     private bool isWaiting = false;
     private bool hasStoppedPermanently = false;
 
-    // Collider'ları tekrar tetiklememek için
     [HideInInspector]
     public HashSet<Collider> triggeredColliders = new HashSet<Collider>();
+
+    private bool hasConverted = false; // Tekrar tetiklemeyi engellemek için
 
     void Update()
     {
@@ -24,7 +25,7 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (isWaiting || triggeredColliders.Contains(other)) return;
+        if (isWaiting || triggeredColliders.Contains(other) || hasConverted) return;
 
         triggeredColliders.Add(other);
 
@@ -33,16 +34,17 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
             StopPointInfo info = other.GetComponent<StopPointInfo>();
             if (info != null && info.targetPrefab != null)
             {
-                StartCoroutine(SwapWholeObjectAfterDelay(3f, info.targetPrefab, other));
+                hasConverted = true;
+                StartCoroutine(SwapWholeObjectAfterDelay(2f, info.targetPrefab, other));
             }
             else
             {
-                StartCoroutine(PauseBeforeContinue(3f));
+                StartCoroutine(PauseBeforeContinue(2f));
             }
         }
         else if (other.CompareTag("Camera"))
         {
-            StartCoroutine(PauseBeforeContinue(2f));
+            StartCoroutine(PauseBeforeContinue(1f));
         }
         else if (other.CompareTag("TerminalPoint"))
         {
@@ -55,8 +57,9 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
         isWaiting = true;
         yield return new WaitForSeconds(delay);
 
+        // Yeni prefabı oluştur
         GameObject newObj = Instantiate(targetPrefab);
-        newObj.transform.position = transform.position + direction.normalized * 0.05f; // 5cm ileri koy
+        newObj.transform.position = transform.position + direction.normalized * 0.05f;
         newObj.transform.rotation = transform.rotation;
         newObj.transform.localScale = transform.localScale;
 
@@ -69,11 +72,8 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
             newScript.speed = speed;
             newScript.direction = direction;
             newScript.isWaiting = false;
-
-            // Eski tetiklenmiş colliderları aktar
             newScript.triggeredColliders = new HashSet<Collider>(triggeredColliders);
 
-            // Yeni objeyle çakışmayı önle
             Collider newCol = newObj.GetComponent<Collider>();
             if (newCol != null)
             {
@@ -99,7 +99,8 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
             }
         }
 
-        Destroy(gameObject);
+        transform.position = new Vector3(-1000, -1000, -1000); // Uzak bir köşeye ışınla
+
     }
 
     IEnumerator PauseBeforeContinue(float duration)
