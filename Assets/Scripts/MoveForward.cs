@@ -99,8 +99,8 @@ public class MoveForwardWithDynamicSwap : MonoBehaviour
             }
         }
 
-        transform.position = new Vector3(-1000, -1000, -1000); // Uzak bir köşeye ışınla
-
+        // Eski objeyi sahneden kaldır
+        Destroy(gameObject);
     }
 
     IEnumerator PauseBeforeContinue(float duration)
