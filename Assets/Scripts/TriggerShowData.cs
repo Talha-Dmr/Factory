@@ -1,59 +1,44 @@
-using UnityEngine;
-using TMPro;           // or UnityEngine.UI for standard Text
-using System.Collections.Generic;
+﻿using UnityEngine;
+using TMPro;
 
 public class TriggerShowData : MonoBehaviour
 {
-    [Header("Assign in Inspector")]
-    public TextMeshPro dataText;    
+    [Header("Text ve CSV Ayarları")]
+    public TextMeshPro textDisplay;
     public TextAsset csvFile;
 
-    // internal storage
-    private List<string> lines;
+    private string[] lines;
+    private int currentLine = 0;
 
-    void Awake()
+    private void Start()
     {
-        // Parse CSV into lines
+        if (textDisplay != null)
+            textDisplay.text = ""; // Başlangıçta boş
+
         if (csvFile != null)
-            lines = new List<string>(csvFile.text.Split('\n'));
+            lines = csvFile.text.Split(new[] { "\r\n", "\n", "\r" }, System.StringSplitOptions.RemoveEmptyEntries);
         else
-            Debug.LogError("No CSV assigned to TriggerShowData!");
-
-        // Hide text initially
-        if (dataText != null)
-            dataText.text = "";
+            Debug.LogError("CSV dosyası atanmadı!");
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        // only react to your player
-        if (other.CompareTag("Player"))
-        {
-            ShowAllData();
-        }
-    }
-
-    void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            dataText.text = "";  // clear when leaving
+            ShowNextLine();
         }
     }
 
-    void ShowAllData()
+    private void ShowNextLine()
     {
-        if (lines == null || dataText == null) return;
-
-        // Build a display string
-        var display = new System.Text.StringBuilder();
-        foreach (var line in lines)
+        if (lines != null && currentLine < lines.Length)
         {
-            if (string.IsNullOrWhiteSpace(line)) continue;
-            var cols = line.Split(',');
-            display.AppendLine(string.Join(" | ", cols));
+            textDisplay.text = lines[currentLine];
+            currentLine++; // Sonraki trigger için artır
         }
-
-        dataText.text = display.ToString();
+        else
+        {
+            textDisplay.text = "Tüm satırlar bitti!";
+        }
     }
 }
