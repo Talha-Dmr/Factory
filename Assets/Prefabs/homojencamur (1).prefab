@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: homojencamur (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1367f87b476e90342ac9a33e0dbdd9f4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
