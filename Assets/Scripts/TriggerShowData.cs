@@ -6,9 +6,12 @@ public class TriggerShowData : MonoBehaviour
     [Header("Text ve CSV Ayarları")]
     public TextMeshPro textDisplay;
     public TextAsset csvFile;
+    public float lockDuration = 2f;
 
     private string[] lines;
     private int currentLine = 0;
+    private bool isLocked = false;
+    private float lockTimer = 0f;
 
     private void Start()
     {
@@ -21,13 +24,29 @@ public class TriggerShowData : MonoBehaviour
             Debug.LogError("CSV dosyası atanmadı!");
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.CompareTag("Player"))
+        if (isLocked)
         {
-            ShowNextLine();
+            lockTimer += Time.deltaTime;
+            if (lockTimer >= lockDuration)
+            {
+                isLocked = false;
+                lockTimer = 0f;
+            }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player") && !isLocked)
+        {
+            ShowNextLine();
+            isLocked = true;
+            lockTimer = 0f;
+        }
+    }
+
 
     private void ShowNextLine()
     {
