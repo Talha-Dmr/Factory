@@ -1,32 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alpka\\secondStepFactory\\Factory\\",
+  "WorkspaceRootPath": "C:\\Users\\alpka\\fifthFactory\\Factory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\secondStepFactory\\Factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\fifthfactory\\factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\secondstepfactory\\factory\\assets\\scripts\\csvtriggerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\csvtriggerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\secondstepfactory\\factory\\assets\\scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveforward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\secondStepFactory\\Factory\\assets\\scripts\\stoppointinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stoppointinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\secondStepFactory\\Factory\\assets\\scripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\PressScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,93 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CSVTriggerDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\CSVTriggerDisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CSVTriggerDisplay.cs",
-              "ToolTip": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\CSVTriggerDisplay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CSVTriggerDisplay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T05:47:57.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StopPointInfo.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\StopPointInfo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StopPointInfo.cs",
-              "ToolTip": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\StopPointInfo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StopPointInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T08:02:47.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SpawnerScript.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\SpawnerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerScript.cs",
-              "ToolTip": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\SpawnerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnerScript.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA+wBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T06:56:33.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CameraSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
-              "RelativeDocumentMoniker": "..\\..\\spawnerFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
-              "ToolTip": "C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
-              "RelativeToolTip": "..\\..\\spawnerFactory\\Factory\\Assets\\Scripts\\CameraSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T10:15:01.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PressScript.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\PressScript.cs",
-              "RelativeDocumentMoniker": "..\\..\\spawnerFactory\\Factory\\Assets\\Scripts\\PressScript.cs",
-              "ToolTip": "C:\\Users\\alpka\\spawnerFactory\\Factory\\Assets\\Scripts\\PressScript.cs",
-              "RelativeToolTip": "..\\..\\spawnerFactory\\Factory\\Assets\\Scripts\\PressScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T10:04:13.812Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TriggerShowData.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
+              "DocumentMoniker": "C:\\Users\\alpka\\fifthFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerShowData.cs",
-              "ToolTip": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
+              "ToolTip": "C:\\Users\\alpka\\fifthFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerShowData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T09:58:36.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoveForward.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\MoveForward.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveForward.cs",
-              "ToolTip": "C:\\Users\\alpka\\secondStepFactory\\Factory\\Assets\\Scripts\\MoveForward.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MoveForward.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:11:21.778Z",
               "EditorCaption": ""
             }
           ]

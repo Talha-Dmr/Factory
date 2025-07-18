@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 382}
   m_MaxSize: {x: 10000, y: 10000}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 64
+  controlID: 165
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\alpka\fifthFactory\Factory
+  m_LastProjectPath: C:\Users\alpka\sixthFactory\Factory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\alpka\fifthFactory\Factory
+  m_LastProjectPath: C:\Users\alpka\sixthFactory\Factory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -813,10 +813,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 408.6}
-      m_SelectedIDs: 06560000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5a0fffff7010ffffda14ffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6c0a0100
+      m_LastClickedID: 68204
+      m_ExpandedIDs: 1a0cffff6c10ffffda14ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1420,9 +1420,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 8.538112, y: 1.5431435, z: 1.7035898}
+    m_Target: {x: 54.380516, y: -0.5796628, z: -4.6162214}
     speed: 2
-    m_Value: {x: 8.538112, y: 1.5431435, z: 1.7035898}
+    m_Value: {x: 54.380516, y: -0.5796628, z: -4.6162214}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1468,13 +1468,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.070388034, y: 0.7044221, z: -0.0678678, w: 0.70460284}
+    m_Target: {x: -0.049712077, y: 0.9341728, z: -0.14802738, w: -0.32431418}
     speed: 2
-    m_Value: {x: 0.069547005, y: 0.7028717, z: -0.066862345, w: 0.7047439}
+    m_Value: {x: -0.049656447, y: 0.9331274, z: -0.14786172, w: -0.32395124}
   m_Size:
-    m_Target: 0.8995098
+    m_Target: 12.124355
     speed: 2
-    m_Value: 0.8995098
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
