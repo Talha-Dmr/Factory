@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alpka\\sixthFactory\\Factory\\",
+  "WorkspaceRootPath": "C:\\Users\\alpka\\seventhFactory\\Factory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\sixthfactory\\factory\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\seventhfactory\\factory\\assets\\scripts\\popuptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popuptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\seventhfactory\\factory\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\sixthfactory\\factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\seventhFactory\\Factory\\assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggershowdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,10 +27,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PopupText.cs",
+              "DocumentMoniker": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\PopupText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupText.cs",
+              "ToolTip": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\PopupText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopupText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:59:36.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CameraController.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\sixthFactory\\Factory\\Assets\\Scripts\\CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
-              "ToolTip": "C:\\Users\\alpka\\sixthFactory\\Factory\\Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,16 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TriggerShowData.cs",
-              "DocumentMoniker": "C:\\Users\\alpka\\sixthFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
+              "DocumentMoniker": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerShowData.cs",
-              "ToolTip": "C:\\Users\\alpka\\sixthFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
+              "ToolTip": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\TriggerShowData.cs",
               "RelativeToolTip": "Assets\\Scripts\\TriggerShowData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:58:36.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T09:58:36.108Z"
             }
           ]
         }

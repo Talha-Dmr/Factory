@@ -14,7 +14,7 @@ public class PopupText : MonoBehaviour
 
     void Update()
     {
-        // Sol click ile popup açılır
+        // Sol click ile popup açılır veya kapanır
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
@@ -24,17 +24,12 @@ public class PopupText : MonoBehaviour
                 if (hit.transform == this.transform)
                 {
                     if (popupTextObject != null)
-                        popupTextObject.SetActive(true);
+                    {
+                        // Eğer açıksa kapat, kapalıysa aç
+                        popupTextObject.SetActive(!popupTextObject.activeSelf);
+                    }
                 }
             }
         }
-
-        // ESC ile popup kapanır
-        if (popupTextObject != null && popupTextObject.activeSelf)
-        {
-            if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
-                popupTextObject.SetActive(false);
-        }
     }
 }
-

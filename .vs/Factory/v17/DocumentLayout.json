@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popuptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|c:\\users\\alpka\\seventhfactory\\factory\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|C:\\Users\\alpka\\seventhFactory\\Factory\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EDFA24-4B49-D1FB-B3E6-4E2A30F60F01}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PopupText.cs",
               "ToolTip": "C:\\Users\\alpka\\seventhFactory\\Factory\\Assets\\Scripts\\PopupText.cs",
               "RelativeToolTip": "Assets\\Scripts\\PopupText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T10:59:36.42Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T07:03:55.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T07:03:55.356Z"
             },
             {
               "$type": "Document",
